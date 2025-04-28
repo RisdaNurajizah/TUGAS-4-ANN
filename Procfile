@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app.py
+web: gunicorn --workers=2 --threads=4 --timeout=60 app:app
