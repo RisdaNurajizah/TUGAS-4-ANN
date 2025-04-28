@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.Python
+
+# Build artifacts
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+
+# Log files
+*.log
+
+# Machine Learning artifacts
+*.h5
+*.pth
+*.pt
+*.pkl
+*.csv
+*.npz
+*.npy
+*.xlsx
